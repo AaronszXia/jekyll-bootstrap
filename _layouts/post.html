@@ -34,16 +34,17 @@ layout: default
 <hr>
 <ul class="pagination">
   {% if page.previous %}
-  <li><a href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo;
-      Previous</a></li>
+  <li class="prev"><a href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
   {% else %}
-  <li"><a>&larr; Previous</a></li>
+  <!-- <li class="prev disabled"><a>&larr; Previous</a></li> -->
+  <li class="prev disabled"><a>&laquo; Previous</a></li>
   {% endif %}
   <li><a href="{{ site.baseurl }}{{ site.JB.archive_path }}">Archive</a></li>
   {% if page.next %}
-  <li><a href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+  <li class="next"><a href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
   {% else %}
-  <li><a>Next &rarr;</a>
+  <!-- <li class="next disabled"><a>Next &rarr;</a> -->
+    <li class="next disabled"><a>Next &raquo;</a>
   {% endif %}
 </ul>
 <hr>

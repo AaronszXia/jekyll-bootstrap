@@ -46,7 +46,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : intensedebate
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -66,7 +66,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google
+    provider : gauges
     gauges :
         site_id : 'SITE ID'
     google : 

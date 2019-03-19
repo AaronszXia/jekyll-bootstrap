@@ -4,6 +4,12 @@ title: Aaronsz' Blog
 tagline: Welcom!
 ---
 
+<ul class="nav navbar-nav">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'navigation' %}
+  {% include JB/pages_list %}
+</ul>
+
 Here's a sample "posts list".
 
 <ul class="posts">
