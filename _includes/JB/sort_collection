@@ -1,5 +1,4 @@
-{% capture jbcache %}{% comment %}
-
+{% capture jbcache %}{% comment %}<!--
   Sort the given array or map.
   
   Parameters:
@@ -42,8 +41,7 @@
         <li>{{test}}</li>
       {% endfor %}
     </ol>
-
-{% endcomment %}
+-->{% endcomment %}
 
 {% assign is_array = true %}
 {% assign sort_result = "," | split: "," %}

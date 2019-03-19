@@ -1,5 +1,4 @@
-{% capture jbcache %}{% comment %}
-
+{% capture jbcache %}{% comment %}<!--
   Determine whether or not the site is being built in a production environment.
   
   Parameters:
@@ -20,8 +19,7 @@
     
     <h3>This is Public</h3>
     <p>I have no unusual quirks.</p>
-
-{% endcomment %}
+-->{% endcomment %}
 
 {% assign is_production = false %}
 {% assign jb_prod_env = "development" %}

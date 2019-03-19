@@ -13,8 +13,7 @@ Usage:
       1) Change the for loop to this:
         => 'for post in site.posts reversed'
       2) Next make sure to change 'post.previous.date' to:
-        => 'post.next.date'
-        
+        => 'post.next.date'     
 -->{% endcomment %}
 
 {% if site.JB.posts_collate.provider == "custom" %}
@@ -32,7 +31,7 @@ Usage:
       <ul>
     {% endif %}
   
-    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   
     {% if forloop.last %}
       </ul>
