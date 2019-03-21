@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aaronsz' Blog
-tagline: Welcom!
+# tagline: Welcom!
 ---
 
 Here's a sample "posts list".

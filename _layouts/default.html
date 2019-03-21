@@ -9,7 +9,8 @@
 
   <title>{{ page.title }}</title>
   {% if page.description %}
-  <meta name="description" content="{{ page.description }}">{% endif %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
   <meta name="author" content="{{ site.author.name }}">
 
   <!-- Enable responsive viewport -->
@@ -60,22 +61,22 @@
       <ul class="navbar-nav mr-auto">
         <!-- <li class="nav-item active">
           <a class="nav-link" href="{{ site.baseurl }}/index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item"> -->
-          <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.baseurl }}/cv">CV</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.baseurl }}/blog">Blog</a>
+          <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://aaronszxia.github.io/">Cover Page</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search(currently unavailable)">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
