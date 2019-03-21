@@ -1,10 +1,15 @@
 ---
 layout: default
 <!-- title: Hank Quinlan's Blog -->
-title: 夏龙飞的博客 | Aaronsz Xia's Blog
+title: Aaronsz Xia's Blog
 ---
 
 <h1>{{ page.title }}</h1>
+<ul class="nav navbar-nav">
+  {% assign pages_list = site.pages %}
+  {% assign group = 'navigation' %}
+  {% include JB/pages_list %}
+</ul>
 <ul class="posts" style="padding-inline-start: 0px;">
 
   {% for post in site.posts %}

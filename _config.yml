@@ -7,13 +7,13 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Aaronsz's Blog
-tagline: Site Tagline
+tagline: Welcome to my blog!
 author :
   name : Aaronsz Xia
   email : 1197393094@qq.com
   github : AaronszXia
-  twitter : twittername
-  feedburner : feedname
+  # twitter : twittername
+  # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
