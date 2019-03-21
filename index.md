@@ -7,7 +7,7 @@ title: Aaronsz' Personal Site
 
 I am a student of Nanjing University of Posts and Telecommunications by day, and a programmer by night.
 
-It is my personal site and currently being updated not so actively, cause I am preparing for the postgraduate entrance examination.
+It is my personal website and currently being updated not so actively, cause I am preparing for the postgraduate entrance examination.
 
 ## Here's the posts list:
 
