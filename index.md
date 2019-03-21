@@ -1,7 +1,6 @@
 ---
 layout: page
-# title: Aaronsz' Blog
-# tagline: Welcom!
+title: Aaronsz' Personal Site
 ---
 
 # Hi there, I'm Aaronsz Xia!
