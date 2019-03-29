@@ -5,7 +5,6 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
 
   <title>{{ page.title }}</title>
   {% if page.description %}
@@ -14,7 +13,9 @@
   <meta name="author" content="{{ site.author.name }}">
 
   <!-- Enable responsive viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <!-- 新版本：禁用缩放功能后，用户只能滚动屏幕，让网站看上去更像原生应用。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
 
   <!-- Bootstrap styles -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
