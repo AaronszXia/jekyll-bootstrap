@@ -9,6 +9,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  padding-inline-start: 0;
 }
 
 /* .tag_box li {
