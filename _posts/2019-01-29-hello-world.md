@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Welcome to Jekyll!"
 <!--published: false-->
 ---
