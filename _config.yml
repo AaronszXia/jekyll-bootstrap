@@ -1,7 +1,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
-title : Aaronsz's Blog
-tagline: Welcome to my blog!
+title : Aaronsz's Personal Website
+tagline: Welcome to my personal website!
 author :
   name : Aaronsz Xia
   email : 1197393094@qq.com
@@ -58,7 +58,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : gauges
+    provider : google
     gauges :
         site_id : 'SITE ID'
     google : 
