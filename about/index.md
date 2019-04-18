@@ -3,9 +3,11 @@ layout: default
 title: About Aaronsz Xia
 ---
 
-# About
+# Hi there, I'm Aaronsz Xia!
 
-You can optionally insert a brief bio here. You went to this school, you studied that, you now work in this field with research interests in that subject. At your previous position at this place, you worked on this or that. You can list some of your significant accomplishments, awards, or recognition here as well. You live in this city with these animals and people. In your free time you like X, Y, and Z.
+I am a student of Nanjing University of Posts and Telecommunications by day, and a programmer by night.
+
+It is my personal website and currently being updated not so actively, cause I am preparing for the postgraduate entrance examination.
 
 e-mail: [aaronszxia@qq.com](mailto:aaronszxia@qq.com)
 

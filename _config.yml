@@ -2,14 +2,14 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: rouge
+### exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+### highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title: Aaronsz's Blog
-tagline: Welcome to my blog!
+tagline: A blog you've never seen before!
 author:
   name: Aaronsz Xia
   email: 1197393094@qq.com

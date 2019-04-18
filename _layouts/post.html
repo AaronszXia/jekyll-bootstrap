@@ -14,9 +14,10 @@ layout: default
   {{ content }}
 </div>
 
+<hr>
 {% unless page.categories == empty %}
 <ul class="tag_box inline">
-  <li><i class="fas fa-folder-open"></i></li>
+  <li><i class="fas fa-folder-open">Category</i></li>
   {% assign categories_list = page.categories %}
   {% include JB/categories_list %}
 </ul>
@@ -24,7 +25,7 @@ layout: default
 
 {% unless page.tags == empty %}
 <ul class="tag_box inline">
-  <li><i class="fas fa-tags"></i></li>
+  <li><i class="fas fa-tags">Tags</i></li>
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
 </ul>
@@ -46,5 +47,6 @@ layout: default
   {% endif %}
   </ul>
 </div>
+
 <hr>
 {% include JB/comments %}

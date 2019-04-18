@@ -5,9 +5,15 @@ title: Aaronsz' Personal Site
 
 # Hi there, I'm Aaronsz Xia!
 
-I am a student of Nanjing University of Posts and Telecommunications by day, and a programmer by night.
+Welcome to my personal website! This site is a customization of Bootstrap 4.1.3, powered by Jekyll, hosted on GitHub.
 
-It is my personal website and currently being updated not so actively, cause I am preparing for the postgraduate entrance examination.
+You can find its source code here if you are interested in it.
+
+Feel free to copy and re-use any and all of the code contained here without contacting me.
+
+<!-- I am a student of <abbr title="Nanjing University of Posts and Telecommunications">NJUPT</abbr> by day, and a programmer by night. -->
+
+<!-- It is my personal website and currently being updated not so actively, cause I am preparing for the postgraduate entrance examination. -->
 
 ## Here's the posts list:
 

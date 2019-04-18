@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-<!--published: false-->
+category : jekyll
+tags : [demo, beginner, jekyll]
+published: false
 ---
 
 **Hello world**, this is my first Jekyll blog post.
