@@ -3,7 +3,6 @@ layout: post
 title: "Welcome to Jekyll!"
 category : jekyll
 tags : [demo, beginner, jekyll]
-published: false
 ---
 
 **Hello world**, this is my first Jekyll blog post.

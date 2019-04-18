@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aaronsz's Personal Site
+title: Aaronsz's Blog
 ---
 
 # Hi there, I'm Aaronsz Xia!
