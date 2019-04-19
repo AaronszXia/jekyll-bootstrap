@@ -3,15 +3,16 @@
 
 <div id="gitalk-container"></div>
 
-
+// 将 id 哈希成 md5 的值，防止 id 长度超过50
 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
+
 <script type="text/javascript">
   var gitalk = new Gitalk({
     clientID: "{{ site.JB.comments.gitalk.clientID}}",
     clientSecret: "{{ site.JB.comments.gitalk.clientSecret}}",
     repo: "{{ site.JB.comments.gitalk.repo}}",
     owner: "{{ site.JB.comments.gitalk.owner}}",
-    admin: ["AaronszXia", "A", "B"],
+    admin: ["AaronszXia", "A"],
     id: {{ site.JB.comments.gitalk.id}},
     distractionFreeMode: {{ site.JB.comments.gitalk.distractionFreeMode}}
   })
