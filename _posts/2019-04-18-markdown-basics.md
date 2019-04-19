@@ -3,6 +3,8 @@ layout: post
 # title: Markdown Basics
 category : markdown
 tags : [beginner, markdown]
+author: JOHN GRUBER
+link: https://daringfireball.net/
 ---
 
 <!-- Markdown: Basics

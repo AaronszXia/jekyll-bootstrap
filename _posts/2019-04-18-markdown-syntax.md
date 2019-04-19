@@ -1,8 +1,10 @@
 ---
 layout: post
 # title: Markdown Syntax
-category : markdown
-tags : [beginner, markdown]
+category: markdown
+tags: [beginner, markdown]
+author: JOHN GRUBER
+link: https://daringfireball.net/
 ---
 
 <!-- Markdown: Syntax

@@ -83,8 +83,8 @@
     {{ content }}
 
     <!-- 调试信息 -->
-    <!-- <div style="background-color: red;">
-      <p>调试信息</p>
+    <div style="background-color: red;">
+      <h1>调试信息</h1>
       {% if is_production != true %}
         <p>is_production = false</p>
       {% endif %}
@@ -93,7 +93,8 @@
       {% endif %}
       <p>BASE_PATH的值为{{ BASE_PATH }}</p>
       <p>ASSET_PATH的值为{{ ASSET_PATH }}</p>
-    </div> -->
+      <p>site.author.name的值为{{ site.author.name }}</p>
+    </div>
     <!-- 调试信息 -->
 
   </div>

@@ -8,6 +8,11 @@ layout: default
 
 <div>
   <span>{{ page.date | date_to_long_string }}</span>
+  {% if page.author %}
+    <a href="https://github.com/{{ page.link }}" target="_blank" rel="noopener noreferrer">{{ page.author }}</a>
+  {% else %}
+    <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">{{ site.author.name }}</a>
+  {% endif %}
 </div>
 
 <div class="markdown-body">
