@@ -1,7 +1,8 @@
 ---
 layout: post
+# title: "Jekyll Introduction"
+# tagline: "Supporting tagline"
 category : lessons
-tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 
