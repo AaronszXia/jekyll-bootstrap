@@ -3,7 +3,7 @@
 
 <div id="gitalk-container"></div>
 
-// 将 id 哈希成 md5 的值，防止 id 长度超过50
+<!-- 将 id 哈希成 md5 的值，防止 id 长度超过50 -->
 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
 
 <script type="text/javascript">
