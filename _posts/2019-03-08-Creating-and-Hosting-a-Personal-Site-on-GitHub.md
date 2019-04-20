@@ -1,14 +1,14 @@
 ---
 layout: post
-# title: "Creating and Hosting a Personal Site on GitHub"
-# date: "2019-03-08"
-# category: jekyll
-# tags: [intro, jekyll, tutorial]
-# published: true
+title: "Creating and Hosting a Personal Site on GitHub"
+date: 2019-03-08
+category: jekyll
+tags: [intro, jekyll, tutorial]
+published: true
 ---
 
 <!-- # Creating and Hosting a Personal Site on GitHub -->
-> 由于技术原因，本文中凡是出现 `{\{` 或者 `}\}` 或者 `{\%` 或者 `%\}` 的地方，在你实际使用的过程中请将其中的 `\` 去掉。
+<!-- > 由于技术原因，本文中凡是出现 `{\{` 或者 `}\}` 或者 `{\%` 或者 `%\}` 的地方，在你实际使用的过程中请将其中的 `\` 去掉。 -->
 
 A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.
 

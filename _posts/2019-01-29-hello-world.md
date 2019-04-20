@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-category : jekyll
-tags : [demo, beginner, jekyll]
+category: jekyll
+tags: [demo, beginner, jekyll]
 ---
 
 **Hello world**, this is my first Jekyll blog post.
