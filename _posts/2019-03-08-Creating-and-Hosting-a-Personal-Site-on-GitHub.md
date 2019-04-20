@@ -4,7 +4,7 @@ title: Creating and Hosting a Personal Site on GitHub
 # date: 2019-03-08
 category: jekyll
 tags: [intro, jekyll, tutorial]
-published: true
+published: false
 ---
 
 <!-- # Creating and Hosting a Personal Site on GitHub -->
