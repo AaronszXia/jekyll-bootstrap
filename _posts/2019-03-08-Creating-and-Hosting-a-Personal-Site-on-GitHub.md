@@ -8,6 +8,7 @@ published: false
 ---
 
 <!-- # Creating and Hosting a Personal Site on GitHub -->
+> 由于技术原因，本文中凡是出现 `{\{` 或者 `}\}` 或者 `{\%` 或者 `%\}` 的地方，在你实际使用的过程中请将其中的 `\` 去掉。
 
 A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.
 
@@ -268,7 +269,7 @@ This is our main layout that will contain repeated elements like our `<head>` an
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<title>{\{ page.title }\}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
@@ -283,7 +284,7 @@ This is our main layout that will contain repeated elements like our `<head>` an
 			</nav>
 			<div class="container">
 			
-			{{ content }}
+			{\{ content }\}
 			
 			</div><!-- /.container -->
 			<footer>
@@ -296,7 +297,7 @@ This is our main layout that will contain repeated elements like our `<head>` an
 	</html>
 ```
 
-Take note of the `{\{ page.title }\}` and `{{ content }}` tags in there. They're what Jekyll calls liquid tags, and these are used to inject content into the final web page. More on this in a bit.
+Take note of the `{\{ page.title }\}` and `{\{ content }\}` tags in there. They're what Jekyll calls liquid tags, and these are used to inject content into the final web page. More on this in a bit.
 
 10. Now update your `index.html` to use your default layout. Replace the entire contents of that file with this:
 
@@ -311,7 +312,7 @@ title: Hank Quinlan, Horrible Cop
 </div><!-- /.blurb -->
 ```
 
-Notice the plain text at the top of the file. Jekyll calls this the Front-matter. Any file on your site that contains this will be processed by Jekyll. Every time you commit a file that specifies `layout: default` at the top, Jekyll will magically generate the full HTML document by replacing `{{ content }}` in `_layouts/default.html` with the contents of the committed file. Awesome!
+Notice the plain text at the top of the file. Jekyll calls this the Front-matter. Any file on your site that contains this will be processed by Jekyll. Every time you commit a file that specifies `layout: default` at the top, Jekyll will magically generate the full HTML document by replacing `{\{ content }\}` in `_layouts/default.html` with the contents of the committed file. Awesome!
 
 ### Setting up a Blog
 
@@ -325,11 +326,11 @@ We'll want to create a new layout for our blog posts called `post.html` and a fo
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<h1>{\{ page.title }\}</h1>
+<p class="meta">{\{ page.date | date_to_string }\}</p>
 
 <div class="post">
-  {{ content }}
+  {\{ content }\}
 </div>
 ```
 
@@ -358,12 +359,12 @@ All this is great, but your readers won't always know the exact URLs of your pos
 layout: default
 title: Hank Quinlan's Blog
 ---
-	<h1>{{ page.title }}</h1>
+	<h1>{\{ page.title }\}</h1>
 	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+	  {\% for post in site.posts %\}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{\{ post.url }\}" title="{\{ post.title }\}">{\{ post.title }\}</a></li>
+	  {\% endfor %\}
 	</ul>
 ```
 
@@ -397,22 +398,22 @@ layout: feed
 	<title>Hank Quinlan's Blog</title>
 	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://hankquinlan.github.io/blog"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<updated>{\{ site.time | date_to_xmlschema }\}</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
 		<name>Hank Quinlan</name>
 		<email>hankquinlanhub@gmail.com</email>
 	</author>
 
-	{% for post in site.posts %}
+	{\% for post in site.posts %\}
 		<entry>
-			<title>{{ post.title }}</title>
+			<title>{\{ post.title }\}</title>
 			<link href="http://hankquinlan.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hankquinlan.github.io{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<updated>{\{ post.date | date_to_xmlschema }\}</updated>
+			<id>http://hankquinlan.github.io{\{ post.id }\}</id>
+			<content type="html">{\{ post.content | xml_escape }\}</content>
 		</entry>
-	{% endfor %}
+	{\% endfor %\}
 
 </feed>
 ```
@@ -494,5 +495,5 @@ I'll try to keep this list current and up to date. If you know of a great resour
 
 ## Notes
 
-\1. Somasundaram, R. (2013). *Git: Version Control for Everyone* (pp. 9-17). Birmingham, UK: Packt Publishing.
+1. Somasundaram, R. (2013). *Git: Version Control for Everyone* (pp. 9-17). Birmingham, UK: Packt Publishing.
 
