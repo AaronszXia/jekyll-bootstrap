@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Creating and Hosting a Personal Site on GitHub"
-date: 2019-03-08
 category: jekyll
 tags: [intro, jekyll, tutorial]
-# published: true
+published: true
 ---
 
 <!-- # Creating and Hosting a Personal Site on GitHub -->
@@ -432,27 +431,7 @@ Now you can include a link to your RSS feed somewhere on your site for users to 
 
 Hopefully this guide has given you the confidence to do many other things with Git, GitHub, Jekyll, and your website or blog. You could go in many different directions at this point, as I'm sure you've already started thinking about, but here are a few other things I think would be worth your time:
 
-- Create `_includes`
-
-  . They're a lot like
-
-   
-
-  ```
-  _layouts
-  ```
-
-  , only smaller snippets of markup and can be injected into your
-
-   
-
-  ```
-  _layouts
-  ```
-
-   
-
-  and pages.
+- Create `_includes`. They're a lot like `_layouts`, only smaller snippets of markup and can be injected into your `_layouts` and pages.
 
   - Try creating an `_include` file that inserts Google Analytics tracking code into your `<head>` so you can get stats on the visitors to your website. Here's an [example](https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/analytics.html).
   - Want commenting for your blog? Create a [DISQUS `_include`](https://github.com/jmcglone/jmcglone.github.io/blob/master/_includes/disqus.html) and [call it in your `post.html` layout](https://github.com/jmcglone/jmcglone.github.io/blob/master/_layouts/post.html).
