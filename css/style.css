@@ -4,7 +4,7 @@
   margin: 0;
   overflow: hidden;
 
-  /* 让图标和 tag_box 垂直剧中 */
+  /* 让图标和 tag_box 垂直居中中 */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -50,26 +50,18 @@
 
 
 /* Sticky footer styles */
+body {
+  padding-top: 5rem;
+}
+
 .footer {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
-  margin-top: auto !important;
 }
 
 .footer p:last-child {
   margin-bottom: 0;
-}
-
-html {
-  height: 100% !important;
-}
-
-body {
-  height: 100% !important;
-  display: flex !important;
-  flex-direction: column !important;
-  padding-top: 5rem;
 }
