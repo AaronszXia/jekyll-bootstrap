@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html class="h-100">
 
 <head>
   <!-- Enable responsive viewport -->
@@ -33,7 +33,7 @@
   <link href="{{ site.baseurl }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
   <!-- github-markdown-css -->
-  <link href="{{ site.baseurl }}/css/github-markdown.css" rel="stylesheet">
+  <!-- <link href="{{ site.baseurl }}/css/github-markdown.css" rel="stylesheet"> -->
 
   <!-- Font Awesome 图标库 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -45,8 +45,7 @@
       
       <a class="navbar-brand" href="{{ site.baseurl }}/index.html">Aaronsz</a>
       
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -101,14 +100,15 @@
 
   <div class="footer mt-auto">
     <div class="container">
+      
+      <!-- 为了能够实时将网站访问量数据展示在footer部分，暂时忍受umeng的垃圾网站统计脚本 -->
+      <!-- 网站数据统计脚本 -->
       <p>
-        <!-- 网站数据统计脚本 -->
         {% include JB/analytics-providers/umeng %}
       </p>
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-        with help from <a href="http://jekyllbootstrap.com" target="_blank"
-          title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+      
+      <p>
+        &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
       </p>
     </div>
   </div>
