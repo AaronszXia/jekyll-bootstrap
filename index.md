@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Aaronsz's Blog
+description: A blog powered by Jekyll, hosted on GitHub.
 ---
 
 # Hi there, I'm Aaronsz Xia!
