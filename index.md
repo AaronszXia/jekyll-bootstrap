@@ -9,7 +9,7 @@ published: true
 
 Welcome to my personal website! This site is a customization of Bootstrap 4.1.3, powered by Jekyll, hosted on GitHub.
 
-You can find its source code [here](https://github.com/AaronszXia/jekyll-bootstrap "Aaronsz's Blog") if you are interested in it.
+You can find its source code [here](https://github.com/AaronszXia/jekyll-bootstrap) if you are interested in it.
 
 Feel free to copy and re-use any and all of the code contained here without contacting me.
 
